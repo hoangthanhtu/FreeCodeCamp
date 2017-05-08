@@ -1,0 +1,58 @@
+body {
+	background: url(../images/background.jpg) fixed;
+	background-repeat: repeat;
+	background-position: center;
+  	margin-top: 60px;
+	font-family: Monospace;
+	color: #993300;
+}
+
+::selection {
+	background-color: #996633;
+	color: #fff;
+}
+
+::-moz-selection {
+	background-color: #996633;
+	color: #fff;
+}
+
+strong {
+	font-weight: 900;
+}
+
+h1 {
+	font-family: Anton;
+}
+
+h2 {
+	font-family: Vollkorn;
+}
+
+blockquote p {
+	font-family: Dancing Script;
+}
+
+blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+blockquote p:after {
+    content: "\f10e";
+    font-family: 'Fontawesome';
+    float: right;
+    margin-left: 10px;
+}
+
+
+a, a:focus {
+	color: #660000;
+}
+
+a:hover {
+	color: #41135f;
+	text-decoration: none;
+}
